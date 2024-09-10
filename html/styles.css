@@ -1,12 +1,14 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
+@charset "UTF8";
+/* zera as margens de todos arquivos html*/
 
-.background-image {
-    background-image: url('fundo_index.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
+ }
+
+
+
+body {
+    background-color: aquamarine;
 }
