@@ -1,0 +1,210 @@
+/* zera as margens de todos arquivos html*/
+
+*{
+    margin:0;
+    padding:0;
+    
+ }
+
+ /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+configura todos os bodys dos arquivos html */
+
+ body{
+      background-color: #E198B3;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+pertence ao arquivo index.html */
+
+ .logo img {
+      /* width: 500px; /* largura desejada */
+      /* height: 180px; /* altura desejada */
+}
+
+ /*Esse trecho abaixo define duas classes, ".apresentacao" e ".menu",
+     e aplica a propriedade "display: inline-block;" a ambas. 
+     Isso significa que os elementos HTML que possuem essas classes serão
+     exibidos como blocos que fluem em linha com outros elementos, permitindo
+     que outros elementos fiquem ao lado deles na mesma linha,
+     como em um menu horizontal, por exemplo.*/
+
+ .apresentacao, .menu {
+            display: inline-block; /* descrito acima*/
+            vertical-align: top; /* ou middle, bottom, etc, dependendo do alinhamento desejado */
+  
+}
+ .apresentacao{
+     font-size: 30px; /* tamanho da fonte*/
+     color: rgb(255,255,255); /*cor da fonte*/
+     text-align: justify; /* Justifica o texto dentro do div */
+     width: 600px;   /* Define a largura de um elemento para 600 pixels. Isso pode ser aplicado a várias tags HTML, como <div>, <img>, entre outras, para controlar o tamanho delas na página.*/
+     margin-left: 100px; /*Define a margem esquerda de um elemento para 100 pixels.*/ 
+     pading-left: 40px; /* Define o preenchimento à esquerda de um elemento para 40 pixels. É o espaço entre o conteúdo do elemento e sua borda.*/
+     
+}
+
+.menu >a {  /*  Está selecionando todos os elementos <a> que são filhos diretos de elementos com a classe .menu. Para aplicar estilos específicos apenas aos links dentro de um menu específico.*/
+               color: white;
+               text-decoration: none;
+               font-size: 45px;
+              
+}
+
+.menu{
+     background-color:  #FFB6C9; /* cor de fundo da div*/
+     width: 400px;       /* largura da div */
+     height: 300px;      /* altura da div */
+     border-radius: 20px;/* Define um raio de 10 pixels para arredondar os cantos */
+     text-align: center; /* alinhamento do texto dentro da div */
+     margin-left: 100px; /* distancia entre as divs */
+     /*display: flex;*/
+     justify-content: center; /* centraliza horizontalmente */
+     align-items: center; /* centraliza verticalmente */
+    
+}   
+
+div.localizacao {
+   
+    width: 1150px; /* largura da div*/
+    text-align: right; /* Alinha o conteudo da div à direita */
+    margin-left: auto; /* Define margem à esquerda automática para centralizar horizontalmente */
+    margin-right: auto; /* Define margem à direita automática para centralizar horizontalmente */
+    padding: 20px; /* Adiciona algum preenchimento para espaçamento interno */
+    border-radius: 10px; /* Define um raio de 10 pixels para os cantos */
+}
+.roda_pe{
+     width: 100%; /* Defina a largura da div container */
+     background-color:  white; /*cor de fundo da div*/
+     color: rgb(255,255,255); /*cor de fundo do texto*/
+     margin-left: 1px;     /* distancia da nargem esquerda*/
+     /*width: 1348px;       /* largura da div */
+     height: 12px;      /* altura da div*/
+     font-size: 10px;   /* tamanho da fonte*/
+     border-radius: 5px;/* Define um raio de 10 pixels para os cantos */
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pertence ao arquivo contato.html */
+
+.contato{
+    margin-left: 250px; /* distancia entre as divs */
+}
+.contato img {
+    
+    width: 900px; /* largura desejada */
+    height: 500px; /* altura desejada */
+}
+
+.volta >a { /*  Está selecionando todos os elementos <a> que são filhos diretos de elementos com a classe .menu. Para aplicar estilos específicos apenas aos links dentro de um menu específico.*/
+               color: white;
+               text-decoration: none;
+               font-size: 45px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pertence ao arquivo menu.html */
+
+.tabela-container {
+    width: 50% ;
+    margin: 0 auto;
+    padding-top: 50px; /* Adiciona 50 pixels de espaço acima da tabela */
+    color: rgb(255,255,255); /*cor de fundo do texto*/
+    font-size: 44px;   /* tamanho da fonte*/
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 55px;   /* tamanho da fonte*/   
+  text-align: center;
+}
+td {
+  border: 0px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+img {
+  vertical-align: middle; /* Para alinhar verticalmente com o texto */
+  margin-right: 5px; /* Para adicionar um espaço entre a imagem e o link */
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.volta2{
+    margin-left: 1px; /*Define a margem esquerda de um elemento para 100 pixels.*/ 
+    text-align: left; /* Alinha o conteúdo a esquerda
+.volta2 >a { /*  Está selecionando todos os elementos <a> que são filhos diretos de elementos com a classe .menu. Para aplicar estilos específicos apenas aos links dentro de um menu específico.*/
+               color: white;
+               text-decoration: none;
+               font-size: 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pertence ao arquivo sobre_nos.html */
+
+.sobre_nos {
+    margin-left: 10px; /*Define a margem esquerda de um elemento para 100 pixels.*/ 
+    width: 90%; /* Largura da div */
+    height: 400px; /* Altura da div */
+    border: 0px solid black; /* Apenas para visualização neste caso não visivel */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+    text-align: center; /* Alinha o conteúdo ao centro */
+}
+ .sobre_nos img {
+    max-width: 60%; /* Define a largura máxima da imagem como 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Garante que a imagem seja tratada como um elemento de bloco em linha */
+}
+
+.volta3{
+    margin-left: 1px; /*Define a margem esquerda de um elemento para 100 pixels.*/ 
+    text-align: left; /* Alinha o conteúdo ao centro */ 
+}
+
+.volta3 >a { /*  Está selecionando todos os elementos <a> que são filhos diretos de elementos com a classe .menu. Para aplicar estilos específicos apenas aos links dentro de um menu específico.*/
+               color: white;
+               text-decoration: none;
+               font-size: 20px;
+
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+pertence ao arquivo fale_conosco.html */
+
+.volta4{
+    margin-left: 1px; /*Define a margem esquerda de um elemento para 100 pixels.*/ 
+    text-align: left; /* Alinha o conteúdo ao centro */ 
+}
+
+.volta4 >a { /*  Está selecionando todos os elementos <a> que são filhos diretos de elementos com a classe .menu. Para aplicar estilos específicos apenas aos links dentro de um menu específico.*/
+               color: white;
+               text-decoration: none;
+               font-size: 20px;
+}
+.fale_conosco{
+    position: relative; /* Define a posição como relativa para as áreas mapeadas */
+    width: 600px; /* Largura da div container */
+    margin-left: 250px; /* distancia entre as divs */
+    width: 90%; /* Largura da div */
+   /* height: 400px; /* Altura da div */   
+   /* width: 200px; /* largura da div */
+   /* height: 180px;  /*altura da div */
+    
+}
+.fale_conosco img {
+    width:100% Define a largura máxima da imagem como 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    /*display: inline-block; /* Garante que a imagem seja tratada como um elemento de bloco em linha */ 
+    
+    /*display: inline-block; /* Garante que a imagem seja tratada como um elemento de bloco em linha */
+}
+
+
+
+
