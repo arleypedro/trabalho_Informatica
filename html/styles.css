@@ -1,14 +1,30 @@
 @charset "UTF8";
 /* zera as margens de todos arquivos html*/
+:root{
+    --rosabebe: #FFB6C1;
+    --rosaclaro: #FFB6C9;
+    --cor02cabecalho: #E198B3;
+    
+    --rosachoque: #FF1490;
+}
 
+    
 *{
     margin:0;
     padding:0;
     box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
  }
 
-
-
 body {
-    background-color: aquamarine;
+    background-color:var(--rosabebe);
+}
+
+header {
+    background-color: var(--cor02);
+}
+header h1 {
+    color: white;
+}
+nav {
+    background-color: var(--rosachoque);
 }
