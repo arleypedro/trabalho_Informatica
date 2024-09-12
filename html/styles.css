@@ -1,30 +1,101 @@
 @charset "UTF8";
-/* zera as margens de todos arquivos html*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
     --rosabebe: #FFB6C1;
     --rosaclaro: #FFB6C9;
-    --cor02cabecalho: #E198B3;
-    
+    --cor02:#DD99B2;
+    --cor01: #d395ab;
+    --cor3: #9D5374;
     --rosachoque: #FF1490;
+    --turquesa: #00CED1;
+    --cinzaclaro:#F5F5F5;
+    --cinzaescuro:#2F4F4F;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+
 }
 
-    
+ /* zera as margens de todos arquivos html*/   
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
+   /*/ box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
  }
 
 body {
-    background-color:var(--rosabebe);
+    background-color:var(--cor02);
 }
 
 header {
-    background-color: var(--cor02);
+    display: inline; /*caixa em linha*/
+    background-color: var(--cinzaescuro);
+    width: 300px; /*largura da caixa*/
+    height: 200px; /*altura da caixa*/
+   /* background-image: linear-gradient(to bottom, var(--rosabebe), var(--cor3));*/ 
 }
-header h1 {
+/*
+header  h1 {
+    
+    font-family: var(--fonte-destaque);
+    font-size: 6em;
     color: white;
+    
 }
+header p {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    text-indent: 30px;
+    text-align: justify;
+    
+    color:white;
+    padding: 30px 10px 30px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+/*
+header img {
+    float: left; /* Faz com que a imagem flutue à esquerda 
+  max-width: 100%; Garante que a imagem não ultrapasse seu contêiner 
+
+  width: 100px;
+}
+
 nav {
-    background-color: var(--rosachoque);
+    display: inline;
+    margin: 0px 5px 5px 5px;
+    background-color: var(--rosachoque); /* cor de fundo
+    padding: 10px; /* acolchoamento de 10 pixel
+    box-shadow: 0px 7px 7px opx rgba(0, 0, 0, 0.192); /* deslocamento horizontal (+)direita (-)esquerda, deslocamento vertical (+)para baixo (-) para cima, embassamento (espalhamento), cor da sombra 
+    border-radius: 10px;
 }
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold ;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: var(--cor01);
+    color: var(--rosachoque);
+}
+main {
+    /*background-image: linear-gradient(to bottom, var(--rosachoque), var(--rosabebe));
+ 
+display: inline;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    background-color: var(--cor02);
+    color:var(--cinzaescuro);
+    padding: 30px 10px 30px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.menu {
+display: inline;
+background-color: var(--cor02);
+}
+*/
