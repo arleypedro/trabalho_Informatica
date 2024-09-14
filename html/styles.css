@@ -24,19 +24,32 @@
  }
 
 body {
-    background-color:var(--cor02);
+    /*background-color:var(--cor02);*/
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    margin: 0;
+
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor3), var(--rosachoque));
+}
+body img {
+    float: left; /* Faz com que a imagem flutue à esquerda*/ 
+    width: 110px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 header {
-    display: inline; /*caixa em linha*/
-    background-color: var(--cinzaescuro);
-    width: 300px; /*largura da caixa*/
-    height: 200px; /*altura da caixa*/
+    margin-left: 140px;
+   /*background-color: var(--cor3);
+    width: 600px; /*largura da caixa
+    height: 500px; /*altura da caixa*/
    /* background-image: linear-gradient(to bottom, var(--rosabebe), var(--cor3));*/ 
 }
-/*
+
 header  h1 {
-    
+    text-align: center; 
     font-family: var(--fonte-destaque);
     font-size: 6em;
     color: white;
