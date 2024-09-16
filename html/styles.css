@@ -13,89 +13,120 @@
     --cinzaescuro:#2F4F4F;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
-
+    --fonte-titulos:'Times New Roman, Verdana, Helvetica, san-serif';
+    
 }
 
- /* zera as margens de todos arquivos html*/   
+ /* zera as margens de todos arquivos html*/   /*
 *{
     margin:0;
     padding:0;
-   /*/ box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem */
- }
+ */   
+   /*/ box-sizing: border-box; /* Garante que a largura e a altura incluam o preenchimento e a borda, mas não a margem 
+ }*/
+ 
 
 body {
-    /*background-color:var(--cor02);*/
+    
+    /*background-image:linear-gradient(to bottom, var(--rosabebe), var(--rosachoque));*/
+    background-color: var(--rosaclaro);
+     
+}
+header {
     display: flex;
-    /*justify-content: center;
-    align-items: center;*/
-    height: 100vh;
-    margin: 0;
-
-    /*
-body img {*//*
-    float: left; /* Faz com que a imagem flutue à esquerda 
+} 
+header img {
+    background-color: var(--rosaclaro);
     width: 110px;
     height: 100px;
-    margin-top: 10px;*/
 }
-body {
-    background-image: url();
-}
-
-header {
-    margin-left: 140px;
-   /*background-color: var(--cor3);
-    width: 600px; /*largura da caixa
-    height: 500px; /*altura da caixa*/
-   /* background-image: linear-gradient(to bottom, var(--rosabebe), var(--cor3));*/ 
-}
-
 header  h1 {
-    text-align: center; 
-    font-family: var(--fonte-destaque);
-    font-size: 6em;
+    background-color: var(--rosaclaro);
+    margin: auto;
+    padding-left: auto;
+    text-align: center;
     color: white;
-    
-}
-header p {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    text-indent: 30px;
-    text-align: justify;
-    
-    color:white;
-    padding: 30px 10px 30px 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
-/*
-header img {
-    float: left; /* Faz com que a imagem flutue à esquerda 
-  max-width: 100%; Garante que a imagem não ultrapasse seu contêiner 
-
-  width: 100px;
-}
-
-nav {
-    display: inline;
-    margin: 0px 5px 5px 5px;
-    background-color: var(--rosachoque); /* cor de fundo
-    padding: 10px; /* acolchoamento de 10 pixel
-    box-shadow: 0px 7px 7px opx rgba(0, 0, 0, 0.192); /* deslocamento horizontal (+)direita (-)esquerda, deslocamento vertical (+)para baixo (-) para cima, embassamento (espalhamento), cor da sombra 
-    border-radius: 10px;
-}
-nav > a{
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
+    font-size: 5em;
+    font-family: var(--fonte-titulo);
+ }
+ #links {
+    padding-left: 0px;
+    padding-top: 10px;
+ }
+ #links a {
     text-decoration: none;
     font-weight: bold ;
     transition-duration: .5s;
-}
-nav > a:hover {
+    text-align: justify;
+    padding: 5px;
+ }
+ #links > a:hover {
     background-color: var(--cor01);
     color: var(--rosachoque);
 }
+ main {
+    display: flex;
+        
+ }
+ main p {
+    background-image: linear-gradient(to bottom, var(--rosabebe), var(--rosachoque));
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 3px black;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+    font-size: 1.8em;
+    font-family: var(--fonte-padrao);
+ }
+
+ #menu {
+    background-image: linear-gradient(to bottom, var(--rosabebe), var(--rosachoque));
+    border-radius: 40px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px black;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    /*border: 2px solid var(--rosachoque);*/
+    
+ }
+ #menu h1 {
+    margin: 5px;
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+    padding-top: 0;
+    text-align: center;
+ }
+ #menu ul {
+    
+    margin: 5px;
+    list-style-position: inside;
+    list-style-image: url('bolinha2.png');
+    columns: 2;
+    padding-top: 1px;
+    padding-left: 25%;
+    padding-bottom: 20px;
+    
+}
+footer {
+    background-color: var(--cor01);
+    margin-top: 20px;
+    padding: 10px;
+}
+      
+    
+
+/*
+
 main {
     /*background-image: linear-gradient(to bottom, var(--rosachoque), var(--rosabebe));
  
