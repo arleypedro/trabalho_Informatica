@@ -19,11 +19,20 @@
 /*background-image: linear-gradient(to bottom, var(--cor02), var(--rosachoque));*/
 body {
     background-color: var(--cor02); 
-}
+}/*
+h1 {
+   background-color: var(--cor02);
+   margin: auto;
+   padding-left: auto;
+   text-align: center;
+   color: white;
+   font-size: 5em;
+   font-family: var(--fonte-titulo);
+}*/
 header {
     display: flex;
     margin-bottom: 20px;
-} 
+}
 header > img {
     background-color: var(--cor02);
     width: 110px;
