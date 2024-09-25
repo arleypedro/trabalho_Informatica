@@ -224,18 +224,22 @@ h1 {
 }
 section  {
    background-color: var(--cinzaclaro);
+   background-size: auto;
    font-family: var(--fonte-destaque);
    font-size: 2vw;
    color: white;
    padding-top: 0px;
    padding-bottom: 0px;
    padding-left: 20px;
+   background-attachment: fixed;
 }
+
 section#dunuts {
     background-image: url(../imagens/dunuts.png);
     background-color: var(--cor7);
     background-repeat: no-repeat;
     background-position:right center;
+    padding-bottom: 100px;
 }
 
 section#bolos {
@@ -243,6 +247,7 @@ section#bolos {
    background-color: var(--cor2);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 50px;
 }
 
 section#tortas {
@@ -257,6 +262,7 @@ section#brownies {
    background-color: var(--cor3);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 50px;
 }
 
 section#zerolactose {
@@ -264,6 +270,7 @@ section#zerolactose {
    background-color: var(--cor7);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 50px;
 }
 
 section#semglutem {
@@ -271,6 +278,7 @@ section#semglutem {
    background-color: var(--cor4);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 50px;
 }
 
 section#zeroacucar {
@@ -278,6 +286,7 @@ section#zeroacucar {
    background-color: var(--cor7);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 50px;
 }
 
 section#veganos {
@@ -285,6 +294,7 @@ section#veganos {
    background-color: var(--cor2);
    background-repeat: no-repeat;
    background-position:right center;
+   padding-bottom: 240px;
 }
 
 footer {
